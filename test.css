@@ -1,0 +1,56 @@
+#container {
+    width: 1000px;
+    margin: 0px auto;
+    padding: 20px;
+    border: 2px solid #333;
+}
+
+#header {
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #333;
+}
+
+#content {
+    width: 600px;
+    height: 1000px;
+    padding: 20px;
+    margin-bottom: 20px;
+    float: left;
+    border: 2px solid #333;
+}
+
+#sidebar {
+    width: 200px;
+    height: 1000px;
+    padding: 20px;
+    margin-bottom: 20px;
+    float: right;
+    border: 2px solid #333;
+}
+
+#footer {
+    clear: both;
+    padding: 20px;
+    border: 2px solid #333;
+}
+
+a[href="http://naver.com"] {
+    color: green;
+    text-decoration: none;
+}
+
+button {
+    color: black;
+    background-color: white;
+}
+
+button:hover {
+    color: tan;
+    background-color: teal;
+}
+
+li#special {
+    color: thistle;
+}
